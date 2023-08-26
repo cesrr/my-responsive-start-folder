@@ -18,11 +18,12 @@ body {
     font-family: $defaultFont;
     font-weight: $mediumWeight;
     color: $fontColor;
+    background-color: $primaryColor;
 }
 
 #headerWrapper {
-    background-color: rgb(220, 233, 246);
-    color: $secondaryColor;
+    background-color: $primaryColor;
+    color: $fontColor;
 }
 
 header {
@@ -54,28 +55,31 @@ nav {
         }
     }
 
-    li.active {
-        background-color: aqua;
-    }
-
     a {
         display: block;
         padding: .75rem;
-        color: white;
+        color: $secondaryColor;
         text-align: center;
         text-decoration: none;
 
         &:hover {
             color: $primaryColor;
+            background-color: $secondaryColor;
         }
     }
-
+    li.active {
+        background-color: $secondaryColor;
+        a{
+            color:white;
+        }
+    }
 }
 
 //footer starts here//
 
 #footerWrapper {
-    background-color: orange;
+    background-color: $secondaryColor;
+    color: white;
 }
 footer{
     padding: .5rem $gutter;

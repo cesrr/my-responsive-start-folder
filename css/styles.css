@@ -330,11 +330,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: #333;
+  background-color: #FFFDF5;
 }
 
 #headerWrapper {
-  background-color: rgb(220, 233, 246);
-  color: #7B08FF;
+  background-color: #FFFDF5;
+  color: #333;
 }
 
 header {
@@ -362,22 +363,27 @@ nav ul {
 nav ul li {
   flex: 1;
 }
-nav li.active {
-  background-color: aqua;
-}
 nav a {
   display: block;
   padding: 0.75rem;
-  color: white;
+  color: #D76436;
   text-align: center;
   text-decoration: none;
 }
 nav a:hover {
-  color: #B3B100;
+  color: #FFFDF5;
+  background-color: #D76436;
+}
+nav li.active {
+  background-color: #D76436;
+}
+nav li.active a {
+  color: white;
 }
 
 #footerWrapper {
-  background-color: orange;
+  background-color: #D76436;
+  color: white;
 }
 
 footer {
