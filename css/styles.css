@@ -366,23 +366,23 @@ nav ul li {
 nav a {
   display: block;
   padding: 0.75rem;
-  color: #D76436;
+  color: #AE460B;
   text-align: center;
   text-decoration: none;
 }
 nav a:hover {
   color: #FFFDF5;
-  background-color: #D76436;
+  background-color: #AE460B;
 }
 nav li.active {
-  background-color: #D76436;
+  background-color: #AE460B;
 }
 nav li.active a {
   color: white;
 }
 
 #footerWrapper {
-  background-color: #D76436;
+  background-color: #AE460B;
   color: white;
 }
 
